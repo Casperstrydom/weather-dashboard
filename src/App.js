@@ -140,7 +140,7 @@ function App() {
 
           <Tooltip label="Type in your ZA Province (First Letter Must Be Capitalized)">
             <Input
-              placeholder="Enter Province Name"
+              placeholder="Enter Province"
               value={city}
               onChange={(e) => setCity(e.target.value)}
               size="lg"
